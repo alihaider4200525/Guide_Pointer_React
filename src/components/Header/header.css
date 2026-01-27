@@ -1,0 +1,34 @@
+.header.container {
+    max-width: 100%;
+}
+
+.header-top {
+    padding: 0px 50px;
+}
+
+.logo-img img {
+    width: 130px;
+    height: auto;
+}
+
+.cart-btn {
+    text-align: right;
+}
+
+.cart-btn button {
+    border-radius: 30px;
+    border: 2px solid #6c757d;
+    width: 130px !important;
+    height: 50px;
+    color: #6c757d;
+    font-weight: normal;
+}
+
+.cart-btn button:hover {
+    background: #6c757d;
+    color: #fff;
+}
+
+i.fa.fa-shopping-cart {
+    font-size: 13px;
+}
