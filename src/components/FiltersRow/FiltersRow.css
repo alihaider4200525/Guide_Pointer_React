@@ -1,0 +1,12 @@
+.row.top-row .col-2 {
+    width: 20%;
+}
+
+.partial-div .select-items {
+    overflow: auto;
+}
+
+.group .select-items {
+    overflow: hidden;
+    width: 86%;
+}
