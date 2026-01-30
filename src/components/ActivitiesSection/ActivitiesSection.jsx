@@ -28,7 +28,7 @@ function ActivitiesSection() {
                 <div className='row justify-content-center align-items-center'>
                     <div className='col-md-8 main-page'>
                         <div className='bg-white shadow home p-5 mb-5 client-request'>
-                            <div className='col justify-content-between'>
+                            <div className='col justify-content-between mb-4'>
                                 <FiltersRow />
                             </div>
                             <p className="mb-3">Please select an activity:</p>

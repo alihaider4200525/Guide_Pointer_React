@@ -8,15 +8,18 @@ function DatePicker() {
 
   return (
     <div className="custom-date-picker">
-      <i className="fa fa-calendar"></i>
+      <div className="custom-date-picker">
 
-      <ReactDatePicker
-        selected={selectedDate}
-        onChange={(date) => setSelectedDate(date)}
-        dateFormat="M-d-yyyy"
-        className="date-input"
-        calendarStartDay={0}
-      />
+        <i className="fa fa-calendar calendar-icon"></i>
+
+        <ReactDatePicker
+          selected={selectedDate}
+          onChange={(date) => setSelectedDate(date)}
+          dateFormat="M-d-yyyy"
+          className="date-input"
+        />
+
+      </div>
     </div>
   );
 }
