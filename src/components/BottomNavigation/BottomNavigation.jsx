@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import './BottomNavigation.css'
 
 function BottomNavigation() {
+    const navigate = useNavigate();
     return (
         <div className="bottom-navigation container">
             <div className="row">
@@ -8,7 +10,9 @@ function BottomNavigation() {
                    <button> Thu, January 22, 2026 </button>
                 </div>
                 <div className="col-6 right-btn">
-                    <button>Next</button>
+                    <button onClick={() => navigate("/view-activity")}>
+                        Next
+                    </button>
                 </div>
             </div>
         </div>

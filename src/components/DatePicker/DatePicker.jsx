@@ -17,6 +17,7 @@ function DatePicker() {
           onChange={(date) => setSelectedDate(date)}
           dateFormat="M-d-yyyy"
           className="date-input"
+          calendarClassName="guide-calendar"
         />
 
       </div>
