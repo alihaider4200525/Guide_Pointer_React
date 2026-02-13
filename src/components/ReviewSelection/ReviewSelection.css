@@ -1,0 +1,43 @@
+.col-5.left-information-section.bg-white.shadow.p-5.mb-5.rounded {
+    height: 600px;
+    overflow-y: auto;
+    border-radius: 10px !important;
+}
+
+.activity-photo-tab {
+    margin-bottom: 20px;
+}
+
+.assignments-information {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 180px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.summary-box.guest-page {
+    background: rgba(223,231,237,1);
+    border-radius: 15px;
+}
+
+.summary-date {
+    width: 100%;
+    display: block;
+}
+
+.people.info {
+    width: 100%;
+    display: block;
+}
+.river-info {
+    margin-bottom: 12px;
+}
+.selected-people i.fa-regular.fa-user {
+    padding-right: 8px;
+}
+span.selected-price.float-end.col-2 {
+    text-align: right;
+}
