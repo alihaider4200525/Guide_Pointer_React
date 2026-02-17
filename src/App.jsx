@@ -6,6 +6,7 @@ import './App.css';
 import Background from './components/Background/Background';
 import ViewActivity from './components/ViewActivity/ViewActivity';
 import ReviewSelection from "./components/ReviewSelection/ReviewSelection";
+import ListAssignments from "./components/ListAssignments/ListAssignments";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<ActivitiesSection />} />
           <Route path="/view-activity" element={<ViewActivity />} />
           <Route path="/review-selection" element={<ReviewSelection />} />
+          <Route path="/list-assignments" element={<ListAssignments />} />
         </Routes>
         <BottomNavigation />
       </BrowserRouter>

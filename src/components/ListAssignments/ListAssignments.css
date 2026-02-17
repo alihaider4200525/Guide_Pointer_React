@@ -1,0 +1,128 @@
+.title {
+    border: 2px solid #3b5064;
+}
+
+.title span {
+    color: #3b5064;
+    font-size: 22px;
+}
+
+.rounded.cart-box {
+    margin-right: 20px;
+    border-radius: 25px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.trip-cart-box {
+    background: rgba(223,231,237,1);
+    padding-bottom: 0 !important;
+    padding-right: 0px !important;
+}
+
+#scroll-container {
+    overflow: auto;
+    height: 380px;
+    overflow-x: hidden;
+}
+
+.summary-date {
+    width: 100%;
+    display: block;
+}
+
+.summary-photo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.summary-photo-tab {
+    display: flex;
+    align-items: center;
+}
+
+.summary-photo {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.photo-caption {
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+button#edit-trip-btn {
+    width: 140px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: rgba(128, 159, 184, 1);
+    font-size: 16px;
+    color: white;
+    margin: 15px 0px;
+    border: 0;
+    font-weight: 500;
+    padding: 0;
+}
+
+button#delete-trip-btn {
+    width: 140px;
+    height: 32px;
+    border-radius: 12px;
+    font-size: 16px;
+    color: white;
+    margin: 15px 0px;
+    border: 0;
+    font-weight: 500;
+    padding: 0;
+    margin-left: 16px;
+}
+
+#payment-btn {
+    background-color: rgba(128, 159, 184, 1);
+    height: 60px;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    box-shadow: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 18px;
+}
+
+.right-pricing-details-section.cart-details.rounded {
+    height: 585px;
+    margin-left: 10px;
+    padding: 30px !important;
+    overflow-y: auto;
+    border-radius: 25px !important;
+}
+
+.price-heading {
+    text-align: center;
+}
+
+.price-heading h3 {
+    font-weight: 400;
+}
+
+.pricing-details-section {
+    font-size: 16px;
+}
+
+.pricing-item {
+    margin-bottom: 1rem;
+    padding: 10px 0;
+}
+
+.section-name {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.section-price {
+    font-weight: normal;
+    font-size: 16px;
+}

@@ -9,7 +9,6 @@ function ViewActivity() {
         <div className="activity-section">
             <div className="container">
 
-                {/* Title */}
                 <div className="row">
                     <div className="col-12 text-center mt-4 mb-4">
                         <h3 className="activity-title">
@@ -20,7 +19,6 @@ function ViewActivity() {
 
                 <div className="row justify-content-center">
 
-                    {/* LEFT SIDE – IMAGE */}
                     <div className="col-md-5">
                         <div className="bg-white shadow p-5 mb-5 rounded activity-left-card">
                             <div className='left-info-tab'>
@@ -62,7 +60,6 @@ function ViewActivity() {
                         </div>
                     </div>
 
-                    {/* RIGHT SIDE – PRICING DETAILS */}
                     <div className="col-md-3">
                         <div className="bg-white shadow activity-right-card">
 
