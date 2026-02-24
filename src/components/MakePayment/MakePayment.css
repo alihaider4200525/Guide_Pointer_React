@@ -1,0 +1,177 @@
+.assignment-payment-box.rounded {
+    height: 520px;
+    border-radius: 25px !important;
+}
+#Assignments_Information {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 320px;
+    font-size: 20px;
+    text-align: left;
+}
+#Assignment_Activity_Row {
+    display: flex;
+    flex-direction: row;
+}
+#Assignment_Activity {
+    width: 100%;
+    background-color: rgba(223, 231, 237, 1);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    border-radius: 16px;
+    margin-right: 10px;
+    padding: 10px 0px 10px 20px;
+}
+.new-cost-div span {
+    font-size: 18px;
+    font-weight: 400;
+}
+div#Assignment_Activity span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.total-price.mt-4 {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+};
+.total-price.mt-4 {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+};
+.total-price.mt-4 {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+.total-price.mt-4 h4 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.total-price.mt-4 h4 span {
+    float: right;
+}
+
+.rounded.payment-box.two-forms {
+    max-height: 520px;
+    overflow-y: auto;
+    padding-bottom: 30px !important;
+    border-radius: 25px !important;
+    margin-left: 22px;
+}
+
+.guest-information-form {
+    border-bottom: 2px solid rgba(128, 159, 184, 1);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.guest-information-form h3 {
+    text-align: center;
+}
+
+.guest-information-form input {
+    font-size: 17px;
+    font-weight: 500;
+}
+#client_first_name {
+    height: 55px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(223, 231, 237, 1);
+}
+#client_last_name {
+    margin-top: 32px;
+    height: 55px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(223, 231, 237, 1);
+}
+.guest-information-form label {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+}
+#client_mobile_phone {
+    height: 55px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(223, 231, 237, 1);
+}
+#client_email {
+    height: 55px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(223, 231, 237, 1);
+}
+textarea#client_notes {
+    height: 117px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(223, 231, 237, 1);
+    font-size: 17px;
+    font-weight: 500;
+}
+div#card-form h3 {
+    text-align: center;
+}
+div#card-form label {
+    font-size: 22px;
+}
+#cardholder_name {
+    height: 60%;
+    width: 100%;
+    font-size: 20px;
+    font-family: Poppins;
+    border: none;
+    background-color: rgba(223, 231, 237, 1);
+    border-radius: 16px;
+}
+
+.card-label {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.fake-stripe-input {
+  background: rgba(223,231,237,1);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.card-number-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 20px;
+  color: #000;
+  font-family: Poppins, sans-serif;
+}
+
+.card-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  color: #6b7280;
+}
+button#pay-btn {
+    background-color: rgba(128, 159, 184, 1);
+    width: 100%;
+    height: 180%;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    font-weight: 600;
+    padding: 8px 16px 6px;
+}
+.form-check {
+    border-top: 2px solid rgba(128, 159, 184, 1);
+    padding-top: 40px;
+    margin-top: 30px;
+}

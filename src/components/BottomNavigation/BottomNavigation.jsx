@@ -5,7 +5,7 @@ function BottomNavigation() {
     const navigate = useNavigate();
     const location = useLocation();
 
-    if (location.pathname === "/view-activity" || location.pathname === "/list-assignments") {
+    if (location.pathname === "/view-activity" || location.pathname === "/list-assignments" || location.pathname === "/make-payment" || location.pathname === "/payment-confirmation" || location.pathname === "/all-details") {
         return null;
     }
 

@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import ActivityRaya from '../../assets/images/activity-raya.jpg';
 import './ListAssignments.css';
 
 function ListAssignments() {
+    const navigate = useNavigate();
     return (
         <>
             <div className="list-assignent">
@@ -41,7 +43,7 @@ function ListAssignments() {
                                         </div>
                                     </div>
                                     <div className="people info float-start">
-                                        <div className="pull-left selected-people">
+                                        <div className="float-start selected-people">
                                             <i className="fa fa-user"></i>
                                             <span id="Text"> 
                                             2
@@ -59,7 +61,7 @@ function ListAssignments() {
 
                             <div class="row mt-4 cart-btn-row">
                                 <div class="col-12">
-                                    <button type="button" id="payment-btn">Payment <i className="fa-solid fa-chevron-right"></i></button>
+                                    <button type="button" id="payment-btn" onClick={() => navigate("/make-payment")}>Payment <i className="fa-solid fa-chevron-right"></i></button>
                                 </div>
                             </div>
                         </div>
